@@ -1,4 +1,4 @@
-# YouTube Downloader
+# YouTube Video Downloader
 
 This program is made to allow users to download youtube videos by pasting the URL of the video.
 
