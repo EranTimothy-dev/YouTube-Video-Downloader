@@ -80,7 +80,7 @@ def search(url):
          raw_data = u.read()
     except Exception as e:
         response = messagebox.showerror("Issue loading image", "Thumbnail could not be loaded")
-        print(f"Error fetching image: {e}")
+        print(f"Error fetching Thumbnail: {e}")
         return
 
     try:
@@ -88,7 +88,7 @@ def search(url):
         resized_image= image.resize((300,205))
         photo = ImageTk.PhotoImage(resized_image)
     except Exception as e:
-        print(f"Error opening image: {e}")
+        print(f"Error opening Thumbnail: {e}")
         return
     
     video_thumbnail = ttk.Label(frame1, image=photo)
