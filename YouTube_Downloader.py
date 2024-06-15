@@ -157,7 +157,7 @@ url_frame.pack(fill="both", expand=1)
 entry_frame = ttk.Labelframe(url_frame, text="Enter url", padding=5)
 entry_frame.grid(row=1, column=1, columnspan=2, padx=20, pady=20)
 
-# Provide not for user to to understand an issue with the download feature
+# Provide note for user to understand an issue with the download feature
 note_label = ttk.Label(url_frame, text=note)
 note_label.grid(row=2, column=1)
 
